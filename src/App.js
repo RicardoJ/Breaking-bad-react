@@ -13,18 +13,18 @@ function App() {
   useEffect(
     () => {
       queryAPI();
-    },[]
+    }, []
   )
-  console.log(phrase)
+
   return (
-   <div className = "contenedor">
-     <Phrase
-     phrase = {phrase}
-     />
-     <button
-     onClick ={queryAPI}
-     >New Phrase</button>
-   </div>
+    <div className="contenedor">
+      <Phrase
+        phrase={phrase}
+      />
+      <button
+        onClick={queryAPI}
+      >New Phrase</button>
+    </div>
   )
 }
 
