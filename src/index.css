@@ -36,6 +36,7 @@ body {
 }
 
 .frase {
+  margin-top: 9rem;
   padding: 3rem;
   border-radius: .5rem;
   background-color: rgba(255,255,255,1);
