@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Phrase from './components/Phrase';
 
 function App() {
   const [phrase, getPhrase] = useState({});
@@ -16,7 +17,11 @@ function App() {
   )
   console.log(phrase)
   return (
-    <p>Hello</p>
+   <div className = "contenedor">
+     <Phrase
+     phrase = {phrase}
+     />
+   </div>
   )
 }
 
