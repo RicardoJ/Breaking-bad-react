@@ -21,6 +21,9 @@ function App() {
      <Phrase
      phrase = {phrase}
      />
+     <button
+     onClick ={queryAPI}
+     >New Phrase</button>
    </div>
   )
 }
